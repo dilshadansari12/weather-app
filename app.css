@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@300;400&display=swap');
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ text-transform: capitalize;
+}
+
+
+body{
+    font-size: 65.5%;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0,0.9), rgba(0, 0, 0, 0.7)), url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: #222; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 440px;
+    height: 342px;
+    background-color: rgba(17, 17, 17, 0.801);
+    border-radius: 25px;
+    color: #ffff;
+    
+
+    
+}
+
+.searc{
+    width: 100%;
+    height: 35px;
+    /* border: 2px solid red; */
+    margin-top: 18px;
+}
+
+#form {
+
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bar{
+    width: 90%;
+    height:100%;
+    font-size: 20px;
+    border: 0.5px solid grey;
+    border-radius: 50px;
+    background-color: #252525;
+    color: #ffff;
+    padding: 0 20px;
+   
+}
+
+#btn{
+    width: 10%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.712);
+
+}
+
+#btn:hover{
+    background-color: #ffff;
+}
+
+
+#btn i{
+    font-size: 18px;
+}
+
+#bar:focus {
+
+    outline: 0px;
+    box-shadow: 14px 3px 20px 4px skyblue;
+    
+
+}
+
+.mid_part{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.mid_part h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.mid_part h3{
+    margin: 18px 0;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.808);
+    font-weight: 400;
+
+
+}
+
+.mid_part h4{
+    font-size: 1rem;
+    margin: 10px 0;
+    color: rgba(34, 34, 34, 0.774);
+    color: rgba(255, 255, 255, 0.836);
+    font-weight: 400;
+
+}
+
+.flix{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+@media all and (max-width:468px){
+    .content {
+        width: 327px;
+       
+    }
+
+    #btn {
+        width: 20%;
+    }
+}
