@@ -12,7 +12,6 @@ body{
     font-size: 65.5%;
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
-   
 }
 
 
@@ -29,18 +28,15 @@ header{
     align-items: center;
 }
 
-.content{
+.container{
     width: 440px;
     height: 342px;
     background-color: rgba(17, 17, 17, 0.801);
     border-radius: 25px;
     color: #ffff;
-    
-
-    
 }
 
-.searc{
+.searchBox{
     width: 100%;
     height: 35px;
     /* border: 2px solid red; */
@@ -48,7 +44,6 @@ header{
 }
 
 #form {
-
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -56,10 +51,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-#bar{
+#inputBox{
     width: 90%;
     height:100%;
     font-size: 20px;
@@ -68,61 +62,53 @@ header{
     background-color: #252525;
     color: #ffff;
     padding: 0 20px;
-   
+    margin-right:5px;
 }
 
-#btn{
+#searchBtn{
     width: 10%;
     height: 100%;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.712);
-
 }
 
-#btn:hover{
+#searchBtn:hover{
     background-color: #ffff;
 }
 
-
-#btn i{
+#searchBtn i{
     font-size: 18px;
 }
 
-#bar:focus {
-
+#inputBox:focus {
     outline: 0px;
-    box-shadow: 14px 3px 20px 4px skyblue;
-    
-
+    box-shadow: 14px 3px 20px 4px rgba(135, 207, 235, 0.37);
 }
 
-.mid_part{
+.resultContainer{
     width: 80%;
     margin: 20px auto;
 }
 
-.mid_part h2{
+.resultContainer h2{
     font-size: 1.8rem;
     font-weight: 800;
 
 }
 
-.mid_part h3{
+.resultContainer h3{
     margin: 18px 0;
     font-size: 2rem;
     color: rgba(255, 255, 255, 0.808);
     font-weight: 400;
-
-
 }
 
-.mid_part h4{
+.resultContainer h4{
     font-size: 1rem;
     margin: 10px 0;
     color: rgba(34, 34, 34, 0.774);
     color: rgba(255, 255, 255, 0.836);
     font-weight: 400;
-
 }
 
 .flix{
@@ -132,12 +118,12 @@ header{
 }
 
 @media all and (max-width:468px){
-    .content {
+    .container {
         width: 327px;
        
     }
 
-    #btn {
+    #searchBtn {
         width: 20%;
     }
 }

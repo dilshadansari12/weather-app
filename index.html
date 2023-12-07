@@ -11,34 +11,27 @@
 </head>
 <body>
     <header>
-        <div class="content">
-
-
-            <div class="searc">
+        <div class="container">
+            <div class="searchBox">
                 <form action="" method="post" id="form" >
-                   <input type="text" name="" id="bar" placeholder="search"  maxlength="15">
-                   <button type="submit" id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                   <input type="text" name="" id="inputBox" placeholder="search"  maxlength="15">
+                   <button type="submit" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
 
-            <div class="mid_part">
-                        <h2>weather in <span id="org">india</span></h2>
+            <div class="resultContainer">
+                        <h2>weather in <span id="cityName">Ranchi</span></h2>
                         <h3 id="temp"> 34°C </h3>
                         <div class="flix">
-                            <img src="https://openweathermap.org/img/wn/10d.png" alt="icon" id="srci">
+                            <img src="https://openweathermap.org/img/wn/10d.png" alt="icon" id="weatherIcon">
                             <h4 id="cloudy"> cloudy</h4>
                          </div>
                         <h4>humidity: <span id="humidity">60 %</h4><span></span></h4>
                         <h4>wind speed: <span id="wind">6.2 km/h</span></h4>
-
-
             </div>
-
         </div>
-
     </header>
-
-    <script src="mind.js"></script>
+    <script src="Script.js"></script>
 </body>
 </html>
 
